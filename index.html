@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Staatliches&amp;subset=latin-ext" rel="stylesheet">
+
+    <style>
+        /* font-family: 'Staatliches', cursive; */
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Staatliches', arial;
+            
+        }
+    body{
+        height: 100vh;
+
+    }
+    h1{
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        top:5px;
+        font-size: 30px;
+
+    }
+    div.main{
+        position: fixed;
+        
+        top:50%;
+        left:50%;
+        height: 90vh;
+        transform: translate(-50%,-50%);
+    }
+    div.wrap{
+        flex-direction: column;
+     display: flex;
+     flex-wrap: wrap;
+     align-content: space-around;
+     justify-content: space-around;
+     align-items: unset;
+     
+     
+     
+     width:90vh;
+     height:80vh;
+
+    }
+    input{
+        display: block;
+        width: calc(8vh - 1px);
+        flex-basis: calc(8vh - 1px);
+        /* height: 8vh; */
+        background-color: #00b894;
+        text-align: center;
+        font-size: 5vh;
+        color: whitesmoke;
+        border: none;
+    }
+    input:focus{
+        background-color: whitesmoke;
+        color:  #00b894;
+        border: 2px solid #00b894;
+        outline: none;
+
+    }
+     button{
+      
+        height: 9vh;
+        width: 90vh;
+        text-align: center;
+        background-color: #00b894;
+        color: whitesmoke;
+        font-size: 5vh;
+        border: none;
+
+    }
+    button:hover{
+            
+        background-color: whitesmoke;
+        color:  #00b894;
+        border: 2px solid #00b894;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>SUDOKU</h1>
+    <div class="main">
+
+        <div class="wrap">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+            <input type="text" pattern="[0-9]" maxlength="1" size="1" max="9" min="0">
+        </div>
+        <button onclick="validate();">Sumbit</button>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
