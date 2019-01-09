@@ -112,8 +112,8 @@
          for (let i = 0; i < 9; i++) {
              for (let j = 0; j < 9; j++) {
                  console.log("weszło 2 a index to ");
-                 console.log(j * 10 + i);
-                 switch (inputsValues[j * 10 + i]) {
+                 console.log(j * 9 + i);
+                 switch (inputsValues[j * 9 + i]) {
 
                      case "1":
                          isDuplicate[0]++;
