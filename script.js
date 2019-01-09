@@ -43,31 +43,31 @@
                  switch (inputsValues[j + whichColumn]) {
 
                      case "1":
-                         isDuplicate[1]++;
+                         isDuplicate[0]++;
                          break;
                      case "2":
-                         isDuplicate[2]++;
+                         isDuplicate[1]++;
                          break;
                      case "3":
-                         isDuplicate[3]++;
+                         isDuplicate[2]++;
                          break;
                      case "4":
-                         isDuplicate[4]++;
+                         isDuplicate[3]++;
                          break;
                      case "5":
-                         isDuplicate[5]++;
+                         isDuplicate[4]++;
                          break;
                      case "6":
-                         isDuplicate[6]++;
+                         isDuplicate[5]++;
                          break;
                      case "7":
-                         isDuplicate[7]++;
+                         isDuplicate[6]++;
                          break;
                      case "8":
-                         isDuplicate[8]++;
+                         isDuplicate[7]++;
                          break;
                      case "9":
-                         isDuplicate[9]++;
+                         isDuplicate[8]++;
                          break;
 
 
@@ -116,31 +116,31 @@
                  switch (inputsValues[j * 10 + i]) {
 
                      case "1":
-                         isDuplicate[1]++;
+                         isDuplicate[0]++;
                          break;
                      case "2":
-                         isDuplicate[2]++;
+                         isDuplicate[1]++;
                          break;
                      case "3":
-                         isDuplicate[3]++;
+                         isDuplicate[2]++;
                          break;
                      case "4":
-                         isDuplicate[4]++;
+                         isDuplicate[3]++;
                          break;
                      case "5":
-                         isDuplicate[5]++;
+                         isDuplicate[4]++;
                          break;
                      case "6":
-                         isDuplicate[6]++;
+                         isDuplicate[5]++;
                          break;
                      case "7":
-                         isDuplicate[7]++;
+                         isDuplicate[6]++;
                          break;
                      case "8":
-                         isDuplicate[8]++;
+                         isDuplicate[7]++;
                          break;
                      case "9":
-                         isDuplicate[9]++;
+                         isDuplicate[8]++;
                          break;
 
 
@@ -183,36 +183,33 @@
              for (let j = 0; j < 3; j++) {
                  for (let k = 0; k < 9; k++) {
                      switch (inputsValues[j + whichColumn]) {
-                         case "0":
-                             isDuplicate[0]++;
-                             break;
 
                          case "1":
-                             isDuplicate[1]++;
+                             isDuplicate[0]++;
                              break;
                          case "2":
-                             isDuplicate[2]++;
+                             isDuplicate[1]++;
                              break;
                          case "3":
-                             isDuplicate[3]++;
+                             isDuplicate[2]++;
                              break;
                          case "4":
-                             isDuplicate[4]++;
+                             isDuplicate[3]++;
                              break;
                          case "5":
-                             isDuplicate[5]++;
+                             isDuplicate[4]++;
                              break;
                          case "6":
-                             isDuplicate[6]++;
+                             isDuplicate[5]++;
                              break;
                          case "7":
-                             isDuplicate[7]++;
+                             isDuplicate[6]++;
                              break;
                          case "8":
-                             isDuplicate[8]++;
+                             isDuplicate[7]++;
                              break;
                          case "9":
-                             isDuplicate[9]++;
+                             isDuplicate[8]++;
                              break;
 
 
@@ -232,7 +229,7 @@
 
 
              }
-             for (let i = 0; i < 10; i++) {
+             for (let i = 0; i < 9; i++) {
                  isDuplicate[i] = 0;
              }
 
