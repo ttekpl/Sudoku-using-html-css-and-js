@@ -17,6 +17,7 @@
      const seventh = document.querySelectorAll(".seventh");
      const eigth = document.querySelectorAll(".eigth");
      const nineth = document.querySelectorAll(".nineth");
+     console.log(first);
 
 
      inputsArray.forEach(function (input, index) {
@@ -41,55 +42,55 @@
          return;
      }
 
-     const firsta = first.forEach(function (input, index) {
-         let a = [];
-         a[index] = input.value;
-         return a;
+     let firsta = [];
+     for (let i = 0; i < first.length; i++) {
+         firsta[i] = first[i].value;
 
-     });
+     }
      console.log(firsta);
 
-     const seconda = second.forEach(function (input, index) {
-         let a = [];
-         a[index] = input.value;
-         return a;
-     });
-     const thirda = third.forEach(function (input, index) {
-         let a = [];
-         a[index] = input.value;
-         return a;
-     });
+     let seconda = [];
+     for (let i = 0; i < second.length; i++) {
+         seconda[i] = second[i].value;
 
-     const fourtha = fourth.forEach(function (input, index) {
-         let a = [];
-         a[index] = input.value;
-         return a;
-     });
-     const fiftha = fifth.forEach(function (input, index) {
-         let a = [];
-         a[index] = input.value;
-         return a;
-     });
-     const sixtha = sixth.forEach(function (input, index) {
-         let a = [];
-         a[index] = input.value;
-         return a;
-     });
-     const seventha = seventh.forEach(function (input, index) {
-         let a = [];
-         a[index] = input.value;
-         return a;
-     });
-     const eigtha = eigth.forEach(function (input, index) {
-         let a = [];
-         a[index] = input.value;
-         return a;
-     });
-     const ninetha = nineth.forEach(function (input, index) {
-         let a = [];
-         a[index] = input.value;
-         return a;
-     });
+     }
+     let thirda = [];
+     for (let i = 0; i < third.length; i++) {
+         thirda[i] = third[i].value;
+
+     }
+
+     let fourtha = [];
+     for (let i = 0; i < fourth.length; i++) {
+         fourtha[i] = fourth[i].value;
+
+     }
+     let fiftha = [];
+     for (let i = 0; i < fifth.length; i++) {
+         fiftha[i] = fifth[i].value;
+
+     }
+     let sixtha = [];
+     for (let i = 0; i < sixth.length; i++) {
+         sixtha[i] = sixth[i].value;
+
+     }
+     let seventha = [];
+     for (let i = 0; i < seventh.length; i++) {
+         seventha[i] = seventh[i].value;
+
+     }
+     let eigtha = [];
+     for (let i = 0; i < eigth.length; i++) {
+         eigtha[i] = eigth[i].value;
+
+     }
+
+     let ninetha = [];
+     for (let i = 0; i < nineth.length; i++) {
+         ninetha[i] = nineth[i].value;
+
+     }
 
      function checkY() {
          const isDuplicate = [0, 0, 0, 0, 0, 0, 0, 0, 0, ];
@@ -282,14 +283,23 @@
 
      function checkSquare() {
          squareOneCheck(firsta);
+         if (isNumbersDuplicate) return;
          squareOneCheck(seconda);
+         if (isNumbersDuplicate) return;
          squareOneCheck(thirda);
+         if (isNumbersDuplicate) return;
          squareOneCheck(fourtha);
+         if (isNumbersDuplicate) return;
          squareOneCheck(fiftha);
+         if (isNumbersDuplicate) return;
          squareOneCheck(sixtha);
+         if (isNumbersDuplicate) return;
          squareOneCheck(seventha);
+         if (isNumbersDuplicate) return;
          squareOneCheck(eigtha);
+         if (isNumbersDuplicate) return;
          squareOneCheck(ninetha);
+         if (isNumbersDuplicate) return;
 
 
      }
